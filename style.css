@@ -18,13 +18,16 @@ nav{
   padding-bottom: 10px;
     height: 30px;
     width: 100%;
+    position: fixed;
     background-color: rgba(245,235,220,255);
 }
+
 nav li a{
     text-decoration: none; 
 margin-left: 0;
 color: rgba(80,35,20,255);
 }
+
 nav li{
     margin-right: 9px;
     list-style: none;
@@ -55,13 +58,49 @@ nav li:hover a{
 }
 .our-menu{
     margin-top: 0px;
-    padding-top: 30px;
-    height: 55px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    height: 58px;
     width: 100%;
     text-align: center;
     color: rgb(241,234,222);
     background-color:rgba(80,35,20,255);
     font-size: 28px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 /* header Menu Style end......*/
+/*  Menu list Style start......*/
+.section-bg{
+    background-color: rgba(245,235,220,255);
+    background-repeat: no-repeat;
+padding-bottom: 5px;
+    height: 250px;
+    width: 100%;
+    
+  
+}
+.background-set{
+    background-size: contain;
+  
+    background-position: left;
+  
+    background-image: url(images/back2.png);
+}
+.burger-img{
+    display: flex;
+    padding-left: 20%;
+}
+
+.burger img{
+    height: 110px;
+    width:110px;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+}
+#figure-name{
+    font-size: 12px;
+    text-align: center;
+    color: rgba(80,35,20,255);
+}/*  Menu list Style end......*/
