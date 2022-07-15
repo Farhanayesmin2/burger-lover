@@ -74,8 +74,8 @@ nav li:hover a{
 .section-bg{
     background-color: rgba(245,235,220,255);
     background-repeat: no-repeat;
-padding-bottom: 5px;
-    height: 250px;
+    padding-bottom: 5px;
+    height: 285px;
     width: 100%;
     
   
@@ -90,6 +90,7 @@ padding-bottom: 5px;
 .burger-img{
     display: flex;
     padding-left: 20%;
+
 }
 
 .burger img{
@@ -97,6 +98,7 @@ padding-bottom: 5px;
     width:110px;
     padding-right: 15px;
     padding-left: 15px;
+    padding-top: 15px;
    
 }
 #figure-name{
@@ -104,3 +106,36 @@ padding-bottom: 5px;
     text-align: center;
     color: rgba(80,35,20,255);
 }/*  Menu list Style end......*/
+.background-set-2{
+    background-size: contain;
+  
+    background-position: right;
+  
+    background-image: url(images/HERO_0002_Chicken_Nuggets.png);
+
+}
+.chipsy-chicken{
+    padding-left: 41%;
+    display: flex;
+}
+.order-now{
+    padding-top: 15px;
+    height: 55px;
+    width: 100%;
+ text-align: center;
+ padding-left: 5px;
+ background-color: rgba(245,235,220,255);
+ 
+}
+.order-btn{
+   padding: 10px 30px;
+   border-style: none;
+   border-radius: 5px;
+   box-shadow: 3px 5px gray;
+   outline-style: outset;
+ background-color: rgba(80,35,20,255);
+   color: rgb(241,234,222);
+   font-family: Flame;
+   font-size: 18px;
+   font-weight: 500;
+}
