@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Flame;
+    src: url(font/Flame-Regular.woff);
+  
+}
+body{
+    font-family: Flame;
+    src: url(font/Flame-Regular.woff);
+    font-size: 9px;
+    margin: 0;
+    
+}
+/* Navbar Menu Style Start......*/
+nav{
+    margin-top: 0;
+    padding: 5px;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(226, 199, 199);
+}
+nav li a{
+    text-decoration: none; 
+margin-left: 0;
+}
+nav li{
+    margin-right: 9px;
+    
+    list-style: none;
+}
+nav >ul{
+    display: flex;
+    padding-left: 23px;
+}
+nav>ul>li:hover>ul{
+    display: block;
+}
+nav li:hover a{
+   color: rgb(185, 15, 24);
+}
+.dropdown{
+    display:none;
+    position: absolute;
+    padding: 3px 7px;
+    margin: 0 7px;
+    background-color: rgb(226, 199, 199);
+}
